@@ -5,7 +5,7 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: madongsheng.net
+title: 东升‘学习记录 
 url: http://madongsheng.net
 feed: /atom.xml
 author_info: <a href="http://madongsheng.net/">东升</a>
