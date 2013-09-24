@@ -60,7 +60,7 @@ Block做为iOS4引进的新功能被大量的使用在了UIKit、第三方框架
 来自Apple的官方文档说明：
 
 >* If you access an instance variable by reference, a strong reference is made to self;
-* If you access an instance variable by value, a strong reference is made to the variable.
+ * If you access an instance variable by value, a strong reference is made to the variable.
 
 上面的代码在complete块里使用的self，这时会对self进行retain（non-arc，arc中strong），而httpService持有
 这个block，self又持有httpService，这就造成的循环引用，导致内存不能回收，最后内存泄漏。
