@@ -1,8 +1,8 @@
 ---
 layout: post
 title: iOS、OSX开发中的两个“坑”
-category:   blog
-description:   iOS、OSX开发虽然很舒服，但仍有不少坑要注意，否则一不留神就。。。 
+category: blog
+description: iOS、OSX开发虽然很舒服，但仍有不少坑要注意，否则一不留神就。。。 
 ---
 
 iOS、OSX开发起从开发工具到API使用都是异常的舒服，是我最推崇的开发环境与模式，不过这中间还是有
