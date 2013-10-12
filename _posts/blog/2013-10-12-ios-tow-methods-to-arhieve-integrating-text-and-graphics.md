@@ -73,7 +73,7 @@ tag: ios coretext1
 一直以来，我认为只有这种方法实现。好吧，其实我没有想过有没有其它实现方法的问题。直到有一天看类似效果的代码时惊奇的发现：怎么
 没有CTRunDelegate? 于是就仔细想了一下这个问题，创建CTFrame的时候会指定一个path，通常这个path我会使用一个CGRect完事，然后在
 有图片的地方使用CTRunDelegate处理一下，但其实完全可以使用CGMutablePath来画出一块不规则的文本路径，比如：
-    ![](/images/post_img/core-text-example.png)
+    ![image](/images/post_img/core-text-example.png)
 这样，就可以在预定的位置画图片了，而不用会用CTRunDelegate来特殊处理，这种方式比较适合图片位置固定的应用。
 
 [CoreText-official-guide]: http://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/CoreText_Programming/
